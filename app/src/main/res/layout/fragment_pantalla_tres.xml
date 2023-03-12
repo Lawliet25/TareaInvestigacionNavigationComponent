@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -48,7 +49,7 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TÉCNICO EN MANTENIMIENTO AERONÁTICO"
+                    android:text="INGENIERÍA EN AERONÁUTICA"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     tools:layout_editor_absoluteY="713dp"
@@ -60,7 +61,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Objetivo de la carrera: formar profesionales pertinentes para laborar en el campo del mantenimiento de aeronaves con competencias en los ámbitos de realización de mantenimiento de aeronaves y componentes, metrología y pruebas."
+                    android:text="Objetivo de la carrera: ofrecer a la región profesionales especializados en ingeniería aeronáutica, proporcionando una fuerte formación en las áreas de navegación aérea, legislación aeronáutica, seguridad aérea, entre otros."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     tools:layout_editor_absoluteY="713dp"
@@ -107,115 +108,7 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="FIA471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Física"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="5"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 1"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="MAV471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Materiales de aviación"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="5"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 1"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="FEL471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Fundamentos de electricidad 1"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="5"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 1"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="GSO471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Gestión de la Seguridad Operacional"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="5"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 1"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="AFI231"
+                        android:text="ANF231"
                         android:textColor="#000" />
 
                     <TextView
@@ -242,52 +135,25 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="AER471"
+                        android:text="EOE211"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Aerodinámica"
+                        android:text="Expresión oral y escrita"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="5"
+                        android:text="3"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Ciclo 2"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="PMA471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Prácticas de mantenimiento 1"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="6"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 2"
+                        android:text="Ciclo 1"
                         android:textColor="#000" />
                 </TableRow>
 
@@ -296,52 +162,25 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="FEL472"
+                        android:text="ALI511"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Fundamentos de electricidad 2"
+                        android:text="Álgebra lineal"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="5"
+                        android:text="3"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Ciclo 2"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="EAN471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Electricidad analógica"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="5"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 2"
+                        android:text="Ciclo 1"
                         android:textColor="#000" />
                 </TableRow>
 
@@ -350,7 +189,61 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="PES231"
+                        android:text="MAT511"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Matemática 1"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 1"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="QUG511"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Guímica general"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 1"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="PSC231"
                         android:textColor="#000" />
 
                     <TextView
@@ -377,13 +270,13 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="INA471"
+                        android:text="DIN131"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Inglés aeronáutico 1"
+                        android:text="Dibujo de ingeniería"
                         android:textColor="#000" />
 
                     <TextView
@@ -404,121 +297,13 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="EAV471"
+                        android:text="PRO141"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Esctructuras de Aviación"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="6"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 3"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="PMA472"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Prácticas de mantenimiento 2"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="5"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 3"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="SDA471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Sistemas de aviación"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="7"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 3"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="MPI471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Motores de pistón"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="6"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 3"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="ELD471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Electrónica digital"
+                        android:text="Programación 1"
                         android:textColor="#000" />
 
                     <TextView
@@ -530,7 +315,7 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Ciclo 3"
+                        android:text="Ciclo 2"
                         android:textColor="#000" />
                 </TableRow>
 
@@ -539,13 +324,67 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="INA472"
+                        android:text="MAT512"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Inglés aeronático 2"
+                        android:text="Matemática 2"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 2"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="FIS521"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Física 1"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 2"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="DES131"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Desarrollo sostenible"
                         android:textColor="#000" />
 
                     <TextView
@@ -566,52 +405,25 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="MAH471"
+                        android:text="EST511"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Mantenimiento de helicópteros"
+                        android:text="Estadídtica 1"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="6"
+                        android:text="4"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Ciclo 4"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="GMA471"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Gestión del mantenimiento"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="5"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 4"
+                        android:text="Ciclo 3"
                         android:textColor="#000" />
                 </TableRow>
 
@@ -620,13 +432,94 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="PEM471"
+                        android:text="EST531"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Procesos especiales en mantenimiento"
+                        android:text="Estática"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 3"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="MAT513"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Matemática 3"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 3"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="EMA511"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Electricidad y magnetismo"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 3"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="DIN511"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Dinámica"
                         android:textColor="#000" />
 
                     <TextView
@@ -647,19 +540,19 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="MTU471"
+                        android:text="SEL521"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Motoes de turbina"
+                        android:text="Sistemas eléctricos lineales 1"
                         android:textColor="#000" />
 
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="6"
+                        android:text="4"
                         android:textColor="#000" />
 
                     <TextView
@@ -674,52 +567,718 @@
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="AVA471"
+                        android:text="MAA511"
                         android:textColor="#000" />
 
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Matemática avanzada"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 4"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="MAT514"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Matemática 4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 4"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="FIS522"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Física 2"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 4"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="MEF521"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Mecánica de fluidos"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 5"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="SEA171"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Sistemas electrónicos de las aeronaves"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 5"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="CMA131"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciencia de los materiales"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 5"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="MEN511"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Métodos numéricos"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 5"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="INE161"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ingeniería económica"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 5"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="TTC171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Termodinámica y transferencia de calor"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 6"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="ECA171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Electrónica"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 6"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="REM571"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Resistencia de materiales"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 6"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="SCA131"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Sistemas de control automático"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 6"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="SAE171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Seguridad aérea"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 6"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="AER171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Aerodinámica"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 7"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="SIP171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Sistemas propulsivos"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 7"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="NAA171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Navegación aérea"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 7"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="LEA171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Legislación aérea"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 7"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="MAC171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Materiales compuestos"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 7"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="SMC171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Sitemas de motores de combulsión interna"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 8"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="ESA171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Estructuras aeronáuticas"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 8"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="AOA171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Administración de operaciones aeronáuticas"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 8"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="MEV171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Mecánica de vuelo"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 8"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="SIA171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Sistemas en aeronaves"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 8"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="RES171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Reparaciones estructurales"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 9"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="AVI171"
+                        android:textColor="#000" />
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
                         android:text="Aviónica"
                         android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="7"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Ciclo 4"
-                        android:textColor="#000" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="INA473"
-                        android:textColor="#000" />
-
-                    <TextView
-                        android:gravity="center"
-                        android:padding="3dip"
-                        android:text="Inglés aeronátuco 3"
-                        android:textColor="#000" />
-
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
                         android:text="4"
                         android:textColor="#000" />
-
                     <TextView
                         android:gravity="center"
                         android:padding="3dip"
-                        android:text="Ciclo 4"
+                        android:text="Ciclo 9"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="AMA171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Administración de mantenimiento aeronáutico"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 9"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Técnica electiva 1"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 9"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="FGP161"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Formulación y gestión de proyectos"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 10"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="DIA171"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Diseño aeronático"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="4"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 10"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Técnica electiva 2"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 10"
+                        android:textColor="#000" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Técnica electiva 3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="3"
+                        android:textColor="#000" />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ciclo 10"
                         android:textColor="#000" />
                 </TableRow>
             </TableLayout>
