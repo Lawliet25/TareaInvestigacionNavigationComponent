@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pantallaUnoFragment">
+    <fragment
+        android:id="@+id/pantallaUnoFragment"
+        android:name="com.example.tareainvestigacionnavigationcomponent.PantallaUnoFragment"
+        android:label="fragment_pantalla_uno"
+        tools:layout="@layout/fragment_pantalla_uno" >
+        <action
+            android:id="@+id/action_pantallaUnoFragment_to_pantallaDosFragment"
+            app:destination="@id/pantallaDosFragment" />
+        <action
+            android:id="@+id/action_pantallaUnoFragment_to_pantallaTresFragment"
+            app:destination="@id/pantallaTresFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pantallaDosFragment"
+        android:name="com.example.tareainvestigacionnavigationcomponent.PantallaDosFragment"
+        android:label="fragment_pantalla_dos"
+        tools:layout="@layout/fragment_pantalla_dos" >
+        <action
+            android:id="@+id/action_pantallaDosFragment_to_pantallaUnoFragment"
+            app:destination="@id/pantallaUnoFragment" />
+        <action
+            android:id="@+id/action_pantallaDosFragment_to_pantallaTresFragment"
+            app:destination="@id/pantallaTresFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pantallaTresFragment"
+        android:name="com.example.tareainvestigacionnavigationcomponent.PantallaTresFragment"
+        android:label="fragment_pantalla_tres"
+        tools:layout="@layout/fragment_pantalla_tres" >
+        <action
+            android:id="@+id/action_pantallaTresFragment_to_pantallaUnoFragment"
+            app:destination="@id/pantallaUnoFragment" />
+        <action
+            android:id="@+id/action_pantallaTresFragment_to_pantallaDosFragment"
+            app:destination="@id/pantallaDosFragment" />
+    </fragment>
+</navigation>
